@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MessagingRedisApplication",
+            "request": "launch",
+            "mainClass": "com.springboottest.demo2.MessagingRedisApplication",
+            "projectName": "demo1"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-Demo1Application<demo1>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
