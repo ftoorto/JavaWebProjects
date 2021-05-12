@@ -54,7 +54,7 @@ public class MessagingRedisApplication {
 
 			LOGGER.info("Sending message...");
 			template.convertAndSend("chat", "Hello from Redis!");
-			Thread.sleep(500L);
+			Thread.sleep(5000L);
 		}
 
 		System.exit(0);

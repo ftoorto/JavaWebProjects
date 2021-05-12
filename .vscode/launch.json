@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MessagingRabbitmqApplication",
+            "request": "launch",
+            "mainClass": "com.springboottest.dockertest.MessagingRabbitmqApplication",
+            "projectName": "demo1"
+        },
+        {
+            "type": "java",
             "name": "Launch MessagingRedisApplication",
             "request": "launch",
             "mainClass": "com.springboottest.demo2.MessagingRedisApplication",
