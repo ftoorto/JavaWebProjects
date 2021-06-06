@@ -2,6 +2,32 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JDBCTest",
+            "request": "launch",
+            "mainClass": "main.java.com.mybatistest.JDBCTest"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.mybatistest.App"
+        },
+        {
+            "type": "java",
+            "name": "Launch JDBCTest",
+            "request": "launch",
+            "mainClass": "main.java.com.mybatistest.JDBCTest",
+            "projectName": "db"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.mybatistest.App",
+            "projectName": "db"
+        },
+        {
+            "type": "java",
             "name": "Launch MessagingRabbitmqApplication",
             "request": "launch",
             "mainClass": "com.springboottest.dockertest.MessagingRabbitmqApplication",
